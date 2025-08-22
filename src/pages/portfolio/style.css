@@ -78,3 +78,46 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-color-2);
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.view-details-btn {
+    background: var(--bg-color);
+    border: solid 1px var(--text-color);
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.view-details-btn:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.po_item .content p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: var(--text-color-2);
+}
