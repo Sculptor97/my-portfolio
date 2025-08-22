@@ -49,6 +49,11 @@ const Headermain = () => {
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
                   </li>
+                  <li className="menu_item mobile-resume-item">
+                    <a href={resume} download="LEGHA-GHA_KANG_Resume.pdf" onClick={handleToggle} className="my-3">
+                      Download Resume
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

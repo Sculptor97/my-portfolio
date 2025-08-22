@@ -55,15 +55,30 @@
 /* Responsive adjustments for menu button */
 @media (max-width: 767.98px) {
     .menu__button svg {
-        width: 1.5em;
-        height: 1.5em;
+        width: 2.2em;
+        height: 2.2em;
     }
 }
 
 @media (max-width: 575.98px) {
     .menu__button svg {
-        width: 1.2em;
-        height: 1.2em;
+        width: 2em;
+        height: 2em;
+    }
+}
+
+/* Responsive adjustments for theme toggle */
+@media (max-width: 767.98px) {
+    .nav_ac svg {
+        width: 2.2em !important;
+        height: 2.2em !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .nav_ac svg {
+        width: 2em !important;
+        height: 2em !important;
     }
 }
 
@@ -123,20 +138,7 @@
 /* Responsive adjustments for resume button */
 @media (max-width: 767.98px) {
     .resume-btn {
-        font-size: 0.8rem;
-        padding: 5px 10px;
-        margin-right: 10px;
-        height: 35px;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .resume-btn {
-        font-size: 0.7rem;
-        padding: 4px 8px;
-        margin-right: 8px;
-        height: 32px;
-        white-space: nowrap;
+        display: none; /* Hide on mobile devices */
     }
 }
 
@@ -363,6 +365,42 @@
     color: var(--text-color-2);
     margin-right: 10px;
     text-decoration: none;
+}
+
+/* Mobile resume button in dropdown */
+.mobile-resume-item {
+    display: none; /* Hidden by default on desktop */
+}
+
+@media (max-width: 767.98px) {
+    .mobile-resume-item {
+        display: block; /* Show on mobile */
+    }
+    
+    .mobile-resume-item a {
+        color: var(--secondary-color) !important;
+        border: 2px solid var(--secondary-color);
+        padding: 12px 24px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+        display: inline-block;
+        margin-top: 15px;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    
+    .mobile-resume-item a:hover {
+        background: var(--secondary-color);
+        color: var(--primary-color) !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .mobile-resume-item a {
+        padding: 10px 20px;
+        font-size: 1rem;
+        margin-top: 12px;
+    }
 }
 
 /* Responsive menu footer */
