@@ -1,47 +1,20 @@
 # GitHub Actions Workflows
 
-This directory contains GitHub Actions workflows for automated CI/CD processes.
+This directory contains GitHub Actions workflows for automated deployment.
 
 ## Available Workflows
 
-### 1. CI/CD Pipeline (`ci-cd.yml`)
-**Triggers:** Push to main/master, Pull requests to main/master
+### Deploy to GitHub Pages (`ci-cd.yml`)
+**Triggers:** Push to main/master
 
 **Features:**
-- Multi-node version testing (16.x, 18.x, 20.x)
-- Linting and testing
-- Build verification
-- Automatic deployment to GitHub Pages (on main/master branch)
+- Automatic build and deployment to GitHub Pages
+- Node.js 18.x environment
+- Optimized for React applications
 
 **Usage:**
-- Automatically runs on every push and pull request
-- Deploys to GitHub Pages when merged to main/master
-
-### 2. Build and Test (`build-test.yml`)
-**Triggers:** Push to main/master/develop, Pull requests to main/master
-
-**Features:**
-- Security vulnerability checks
-- Linting and testing
-- Build verification
-- Artifact upload
-
-**Usage:**
-- Simpler workflow without deployment
-- Good for development branches
-
-### 3. Dependency Check (`dependency-check.yml`)
-**Triggers:** Weekly schedule (Mondays 9 AM UTC), Manual trigger
-
-**Features:**
-- Outdated package detection
-- Security vulnerability scanning
-- License compliance checking
-- Dependency report generation
-
-**Usage:**
-- Run manually: Go to Actions tab → Dependency Check → Run workflow
-- Automatically runs weekly
+- Automatically deploys when you push to main/master branch
+- Builds the project and deploys to GitHub Pages
 
 ## Setup Instructions
 
@@ -62,28 +35,16 @@ If you have a custom domain for GitHub Pages:
 
 ## Workflow Features
 
-### Security
-- Automated security audits
-- Dependency vulnerability scanning
-- License compliance checking
-
-### Quality Assurance
-- Multi-version Node.js testing
-- Linting with ESLint
-- Test coverage reporting
-- Build verification
-
 ### Deployment
 - Automatic deployment to GitHub Pages
-- Build artifact preservation
-- Conditional deployment (main/master only)
+- Build verification
+- Optimized for React applications
 
 ## Troubleshooting
 
 ### Common Issues
 1. **Build fails**: Check if all dependencies are properly installed
-2. **Tests fail**: Ensure all tests pass locally before pushing
-3. **Deployment fails**: Verify GitHub Pages is enabled and configured
+2. **Deployment fails**: Verify GitHub Pages is enabled and configured
 
 ### Manual Triggers
 - Go to Actions tab in your repository
@@ -92,9 +53,8 @@ If you have a custom domain for GitHub Pages:
 
 ## Customization
 
-You can customize these workflows by:
-- Adding more Node.js versions for testing
-- Including additional build steps
-- Modifying deployment targets
-- Adding custom notifications
+You can customize this workflow by:
+- Adding custom build steps
+- Modifying deployment settings
+- Adding custom domain configuration
 - Integrating with external services
