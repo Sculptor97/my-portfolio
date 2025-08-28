@@ -238,8 +238,8 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "kanglegha@gmail.com",
-  YOUR_FONE: "+237 6 83 17 93",
+  YOUR_EMAIL: "kangleghagha@gmail.com",
+  YOUR_FONE: "+237 6 83 17 93 94",
   description: "Let's talk about your project",
   YOUR_SERVICE_ID: "service_c0k3d6e",
   YOUR_TEMPLATE_ID: "template_sg4645i",
@@ -248,9 +248,9 @@ const contactConfig = {
 
 const socialprofils = {
   github: "https://github.com/Sculptor97",
-  facebook: "https://facebook.com",
-  linkedin: "www.linkedin.com/in/sculptork",
-  twitter: "https://twitter.com",
+  facebook: "https://www.facebook.com/kangcmd/",
+  linkedin: "https://www.linkedin.com/in/sculptork",
+  twitter: "https://x.com/pie_ape?s=21",
 };
 export {
   meta,
