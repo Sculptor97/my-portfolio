@@ -109,7 +109,7 @@ const dataportfolio = [
   {
     id: "sentiment-analysis-extension",
     title: "Sentiment Analysis Chrome Extension",
-    img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=500&fit=crop&grayscale",
+    img: "https://images.unsplash.com/photo-1584735414166-8c436d5854ac?q=80&w=400&h=500&auto=format&fit=crop",
     description: "A Chrome extension that analyzes webpage content sentiment and recommends similar content",
     shortDescription: "Chrome extension for content sentiment analysis",
     technologies: ["React", "TypeScript", "Sentiment API", "Chrome Extensions API"],
@@ -130,7 +130,7 @@ const dataportfolio = [
   {
     id: "whatsapp-automation-platform",
     title: "WhatsApp Messaging Automation Platform",
-    img: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=350&fit=crop&grayscale",
+    img: "https://images.unsplash.com/photo-1599382103240-5f2a57137d28?q=80&w=400&h=700&auto=format&fit=crop",
     description: "A comprehensive WhatsApp automation platform for workflow management and contact management",
     shortDescription: "WhatsApp automation platform with workflow management",
     technologies: ["React", "TypeScript", "ReactFlow", "GSAP", "Tailwind CSS", "Node.js"],
@@ -152,7 +152,7 @@ const dataportfolio = [
   {
     id: "alien-shooting-game",
     title: "Alien Shooting Game",
-    img: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=600&fit=crop&grayscale",
+    img: "https://images.unsplash.com/photo-1572224104820-98a5279d861b?q=80&w=400&h=600&auto=format&fit=crop",
     description: "A fun and engaging 2D shooting game built with Python and Pygame",
     shortDescription: "2D shooting game with Python and Pygame",
     technologies: ["Python", "Pygame", "Object-Oriented Programming"],
@@ -175,7 +175,7 @@ const dataportfolio = [
   {
     id: "fantasy-premier-league-refactor",
     title: "Fantasy Premier League Insights Refactor",
-    img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=450&fit=crop&grayscale",
+    img: "https://images.unsplash.com/photo-1568101794887-a7a3f149f6e6?q=80&w=400&h=500&auto=format&fit=crop",
     description: "Performance optimization and refactoring of a football statistics website",
     shortDescription: "Fantasy Premier League statistics platform refactor",
     technologies: ["TypeScript", "React", "Shadcn UI", "Fantasy Premier League API", "AOS"],
@@ -198,7 +198,7 @@ const dataportfolio = [
   {
     id: "agency-portfolio",
     title: "Agency Portfolio Website",
-    img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=400&fit=crop&grayscale",
+    img: "https://images.unsplash.com/photo-1702479744062-1880502275b1?q=80&w=400&h=550&auto=format&fit=crop",
     description: "Modern agency portfolio website showcasing company services and projects",
     shortDescription: "Modern agency portfolio with animations",
     technologies: ["React", "GSAP", "Shadcn UI", "TypeScript", "Tailwind CSS"],
@@ -221,7 +221,7 @@ const dataportfolio = [
   {
     id: "real-estate-showcase",
     title: "Real Estate Product Showcase",
-    img: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=550&fit=crop&grayscale",
+    img: "https://images.unsplash.com/photo-1708196889869-1405f43976ea?q=80&w=400&h=600&auto=format&fit=crop",
     description: "Single product showcase website for a premium real estate property",
     shortDescription: "Premium real estate property showcase",
     technologies: ["React", "GSAP", "Shadcn UI", "TypeScript", "Tailwind CSS"],
@@ -244,7 +244,7 @@ const dataportfolio = [
   {
     id: "real-estate-review-dashboard",
     title: "Real Estate Review Management Dashboard",
-    img: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=480&fit=crop&grayscale",
+    img: "https://images.unsplash.com/photo-1740484409661-75d41ff41a9b?q=80&w=400&h=700&auto=format&fit=crop",
     description: "A comprehensive dashboard for real estate managers to manage and respond to property reviews across multiple platforms",
     shortDescription: "Real estate review management dashboard",
     technologies: ["Next.js", "MongoDB", "Recharts", "TypeScript", "Tailwind CSS", "Node.js"],
