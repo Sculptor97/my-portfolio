@@ -129,15 +129,23 @@ export const ProjectDetails = () => {
                     View Live Project
                   </a>
                 )}
-                <a 
-                  href={project.githubLink} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="btn btn-outline-dark"
+                <button 
+                  onClick={project.isPublicRepo ? () => window.open(project.githubLink, '_blank') : undefined}
+                  disabled={!project.isPublicRepo}
+                  className={`btn ${project.isPublicRepo ? 'btn-outline-dark' : 'btn-outline-secondary'}`}
+                  style={{
+                    cursor: project.isPublicRepo ? 'pointer' : 'not-allowed',
+                    opacity: project.isPublicRepo ? 1 : 0.6
+                  }}
                 >
                   <FaGithub className="me-2" />
                   View on GitHub
-                </a>
+                </button>
+                {!project.isPublicRepo && (
+                  <small className="text-muted d-block mt-2">
+                    * This repository is private and not publicly accessible
+                  </small>
+                )}
               </div>
             </div>
           </Col>

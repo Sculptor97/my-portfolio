@@ -124,7 +124,8 @@ const dataportfolio = [
     ],
     deployedLink: "https://chromewebstore.google.com/detail/browsebright/jgjgjgjgjgjgjgjgjgjgjgjgjgjgjgjg",
     githubLink: "https://github.com/nkeumosoft/BrowseBright",
-    isDeployed: true
+    isDeployed: false,
+    isPublicRepo: false
   },
   {
     id: "whatsapp-automation-platform",
@@ -145,7 +146,8 @@ const dataportfolio = [
     ],
     deployedLink: "https://app.verboticls.com/",
     githubLink: "https://github.com/Verbotic/appointment-booking-frontend",
-    isDeployed: true
+    isDeployed: true,
+    isPublicRepo: false
   },
   {
     id: "alien-shooting-game",
@@ -167,7 +169,8 @@ const dataportfolio = [
     ],
     deployedLink: "#",
     githubLink: "https://github.com/Sculptor97/Alien_invasion",
-    isDeployed: false
+    isDeployed: false,
+    isPublicRepo: true
   },
   {
     id: "fantasy-premier-league-refactor",
@@ -188,7 +191,8 @@ const dataportfolio = [
     ],
     deployedLink: "https://www.fplinsights.com/",
     githubLink: "https://github.com/FPL-insights/fpl-insights",
-    isDeployed: true
+    isDeployed: true,
+    isPublicRepo: false
   },
 
   {
@@ -211,7 +215,8 @@ const dataportfolio = [
     ],
     deployedLink: "https://nkeumosoft.com/",
     githubLink: "https://github.com/nkeumosoft/agency-portfolio-v3",
-    isDeployed: true
+    isDeployed: true,
+    isPublicRepo: false
   },
   {
     id: "real-estate-showcase",
@@ -233,7 +238,33 @@ const dataportfolio = [
     ],
     deployedLink: "https://app.gohighlevel.com/v2/preview/Y3U7A0V281JHp10Mg1ho",
     githubLink: "#",
-    isDeployed: true
+    isDeployed: true,
+    isPublicRepo: false
+  },
+  {
+    id: "real-estate-review-dashboard",
+    title: "Real Estate Review Management Dashboard",
+    img: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=480&fit=crop&grayscale",
+    description: "A comprehensive dashboard for real estate managers to manage and respond to property reviews across multiple platforms",
+    shortDescription: "Real estate review management dashboard",
+    technologies: ["Next.js", "MongoDB", "Recharts", "TypeScript", "Tailwind CSS", "Node.js"],
+    challenge: "Building a centralized dashboard that allows real estate managers to efficiently manage reviews from multiple platforms (Google Reviews, Hostaway, etc.), respond to customer feedback, moderate content, and gain insights through analytics while maintaining a seamless user experience.",
+    solution: "Developed a full-stack Next.js application with MongoDB for data storage and Recharts for analytics visualization. Created a unified interface that aggregates reviews from multiple sources, implements automated moderation workflows, and provides comprehensive analytics. Built responsive design with real-time updates and notification systems.",
+    features: [
+      "Multi-platform review aggregation (Google, Hostaway, etc.)",
+      "Real-time review response and management system",
+      "Automated review approval/disapproval workflows",
+      "Comprehensive analytics dashboard with Recharts",
+      "Review sentiment analysis and trending insights",
+      "Bulk actions and automated response templates",
+      "Role-based access control for team management",
+      "Real-time notifications and email alerts",
+      "Export functionality for reports and data analysis"
+    ],
+    deployedLink: "https://flex-reviews-rosy.vercel.app/",
+    githubLink: "https://github.com/Sculptor97/flex-reviews",
+    isDeployed: true,
+    isPublicRepo: true
   }
 ];
 

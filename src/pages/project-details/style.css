@@ -117,6 +117,24 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.project-links-card .btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+.project-links-card .btn:disabled {
+    cursor: not-allowed !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.project-links-card .btn:disabled:hover {
+    background-color: transparent !important;
+    color: #6c757d !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
 /* Responsive Design */
 @media (max-width: 991.98px) {
     .project-links-card {
