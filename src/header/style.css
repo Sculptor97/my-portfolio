@@ -380,13 +380,13 @@
     .mobile-resume-item a {
         color: var(--secondary-color) !important;
         border: 2px solid var(--secondary-color);
-        padding: 12px 24px;
+        padding: 12px 12px !important;
         border-radius: 6px;
         transition: all 0.3s ease;
         display: inline-block;
         margin-top: 15px;
-        font-size: 1.1rem;
-        font-weight: 500;
+        font-size: 1.2rem !important;
+        font-weight: 400;
     }
     
     .mobile-resume-item a:hover {

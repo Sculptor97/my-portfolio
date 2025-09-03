@@ -8,6 +8,7 @@ import resume from "../assets/Resume.pdf";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
+  const year = new Date().getFullYear();
 
   const handleToggle = () => {
     setActive(!isActive);
@@ -64,7 +65,7 @@ const Headermain = () => {
             <a href={socialprofils.github}>Github</a>
             <a href={socialprofils.twitter}>Twitter</a>
             </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
+            <p className="copyright m-0">copyright © {year} {logotext}</p>
           </div>
         </div>
       </header>
