@@ -125,7 +125,13 @@ const dataportfolio = [
     deployedLink: "https://chromewebstore.google.com/detail/browsebright/jgjgjgjgjgjgjgjgjgjgjgjgjgjgjgjg",
     githubLink: "https://github.com/nkeumosoft/BrowseBright",
     isDeployed: false,
-    isPublicRepo: false
+    isPublicRepo: false,
+    gallery: [
+      "/images/bb_1280.jpg",
+      "/images/bb_neutral.jpg",
+      "/images/bb_poster_image.jpg",
+      "/images/bb_thems.jpg"
+    ]
   },
   {
     id: "whatsapp-automation-platform",
@@ -147,7 +153,14 @@ const dataportfolio = [
     deployedLink: "https://app.verboticls.com/",
     githubLink: "https://github.com/Verbotic/appointment-booking-frontend",
     isDeployed: true,
-    isPublicRepo: false
+    isPublicRepo: false,
+    gallery: [
+      "/images/wa_1.png",
+      "/images/wa_2.png",
+      "/images/wa_3.png",
+      "/images/wa_4.png",
+      "/images/wa_5.png"
+    ]
   },
   {
     id: "alien-shooting-game",
@@ -170,7 +183,10 @@ const dataportfolio = [
     deployedLink: "#",
     githubLink: "https://github.com/Sculptor97/Alien_invasion",
     isDeployed: false,
-    isPublicRepo: true
+    isPublicRepo: true,
+    gallery: [
+      "/images/alien_invasion.jpg"
+    ]
   },
   {
     id: "fantasy-premier-league-refactor",
@@ -192,7 +208,12 @@ const dataportfolio = [
     deployedLink: "https://www.fplinsights.com/",
     githubLink: "https://github.com/FPL-insights/fpl-insights",
     isDeployed: true,
-    isPublicRepo: false
+    isPublicRepo: false,
+    gallery: [
+      "https://images.unsplash.com/photo-1568101794887-a7a3f149f6e6?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?q=80&w=800&auto=format&fit=crop"
+    ]
   },
 
   {
@@ -216,7 +237,12 @@ const dataportfolio = [
     deployedLink: "https://nkeumosoft.com/",
     githubLink: "https://github.com/nkeumosoft/agency-portfolio-v3",
     isDeployed: true,
-    isPublicRepo: false
+    isPublicRepo: false,
+    gallery: [
+      "https://images.unsplash.com/photo-1702479744062-1880502275b1?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=800&auto=format&fit=crop"
+    ]
   },
   {
     id: "real-estate-showcase",
@@ -239,7 +265,12 @@ const dataportfolio = [
     deployedLink: "https://app.gohighlevel.com/v2/preview/Y3U7A0V281JHp10Mg1ho",
     githubLink: "#",
     isDeployed: true,
-    isPublicRepo: false
+    isPublicRepo: false,
+    gallery: [
+      "https://images.unsplash.com/photo-1708196889869-1405f43976ea?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=800&auto=format&fit=crop"
+    ]
   },
   {
     id: "real-estate-review-dashboard",
@@ -264,7 +295,44 @@ const dataportfolio = [
     deployedLink: "https://flex-reviews-rosy.vercel.app/",
     githubLink: "https://github.com/Sculptor97/flex-reviews",
     isDeployed: true,
-    isPublicRepo: true
+    isPublicRepo: true,
+    gallery: [
+      "https://images.unsplash.com/photo-1740484409661-75d41ff41a9b?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
+    ]
+  },
+  {
+    id: "afroconnect-platform",
+    title: "Afroconnect - African Business Marketplace",
+    img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=400&h=650&auto=format&fit=crop",
+    description: "A Fiverr-like platform designed specifically for the African business market, connecting local service providers with clients",
+    shortDescription: "African business marketplace platform",
+    technologies: ["React", "TypeScript", "TanStack Query", "Shadcn UI", "Tailwind CSS", "Framer Motion"],
+    challenge: "Creating a comprehensive marketplace platform that caters to the unique needs of African service providers and businesses, including professionals like barbers, mechanics, drivers, and car wash services, while ensuring a seamless user experience and robust functionality.",
+    solution: "Developed a full-featured marketplace using React and TypeScript for type safety. Implemented TanStack Query for efficient data fetching and caching, Shadcn UI for consistent design components, and Framer Motion for smooth animations. Built with Tailwind CSS for responsive design and optimized for the African market's specific requirements.",
+    features: [
+      "Business profile creation and management",
+      "Service listing and categorization system",
+      "Advanced search and filtering capabilities",
+      "Real-time messaging between providers and clients",
+      "Booking and scheduling system",
+      "Payment integration for African markets",
+      "Review and rating system",
+      "Location-based service discovery",
+      "Mobile-responsive design for accessibility",
+      "Multi-language support for African regions"
+    ],
+    deployedLink: "https://afroconnect.vercel.app",
+    githubLink: "https://github.com/Sculptor97/afroconnect",
+    isDeployed: true,
+    isPublicRepo: false,
+    gallery: [
+      "/images/ac_1.png",
+      "/images/ac_2.png",
+      "/images/ac_3.png",
+      "/images/ac_4.png"
+    ]
   }
 ];
 

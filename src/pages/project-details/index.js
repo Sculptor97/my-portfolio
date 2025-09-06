@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col, Badge, Button } from "react-bootstrap";
 import { useParams, Link } from "react-router-dom";
 import { dataportfolio, meta } from "../../content_option";
-import { FaGithub, FaExternalLinkAlt, FaArrowLeft } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt, FaArrowLeft, FaImages } from "react-icons/fa";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 export const ProjectDetails = () => {
   const { projectId } = useParams();
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
   
   // Find the project by ID
   const project = dataportfolio.find(p => p.id === projectId);
@@ -111,6 +115,34 @@ export const ProjectDetails = () => {
                 ))}
               </ul>
             </div>
+
+            {/* Gallery */}
+            {project.gallery && project.gallery.length > 0 && (
+              <div className="mb-4">
+                <h3>Project Gallery</h3>
+                <div className="gallery-grid">
+                  {project.gallery.map((image, index) => (
+                    <div 
+                      key={index} 
+                      className="gallery-item"
+                      onClick={() => {
+                        setLightboxIndex(index);
+                        setLightboxOpen(true);
+                      }}
+                    >
+                      <img 
+                        src={image} 
+                        alt={`${project.title} - Image ${index + 1}`}
+                        className="gallery-image"
+                      />
+                      <div className="gallery-overlay">
+                        <FaImages className="gallery-icon" />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </Col>
 
           {/* Project Links */}
@@ -151,6 +183,16 @@ export const ProjectDetails = () => {
           </Col>
         </Row>
       </Container>
+
+      {/* Lightbox */}
+      {project.gallery && project.gallery.length > 0 && (
+        <Lightbox
+          open={lightboxOpen}
+          close={() => setLightboxOpen(false)}
+          index={lightboxIndex}
+          slides={project.gallery.map(image => ({ src: image }))}
+        />
+      )}
     </HelmetProvider>
   );
 };
