@@ -343,6 +343,7 @@ const contactConfig = {
   YOUR_SERVICE_ID: "service_c0k3d6e",
   YOUR_TEMPLATE_ID: "template_sg4645i",
   YOUR_USER_ID: "aVCRRYuCl7qdrvZjv",
+  RESUME: "/Legha-gha_Resume.pdf",
 };
 
 const socialprofils = {

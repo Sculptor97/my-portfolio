@@ -4,7 +4,7 @@ import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { logotext ,socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
-import resume from "../assets/Resume.pdf";
+import { contactConfig } from "../content_option";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -23,7 +23,7 @@ const Headermain = () => {
             {logotext}
           </Link>
           <div className="d-flex align-items-center">
-            <a href={resume} download="LEGHA-GHA_KANG_Resume.pdf" className="resume-btn">
+            <a href={contactConfig.RESUME} download="LEGHA-GHA_KANG_Resume.pdf" className="resume-btn">
               Download Resume
             </a>
             <Themetoggle />
@@ -51,7 +51,7 @@ const Headermain = () => {
                   <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
                   </li>
                   <li className="menu_item mobile-resume-item">
-                    <a href={resume} download="LEGHA-GHA_KANG_Resume.pdf" onClick={handleToggle} className="my-3">
+                    <a href={contactConfig.RESUME} download="LEGHA-GHA_KANG_Resume.pdf" onClick={handleToggle} className="my-3">
                       Download Resume
                     </a>
                   </li>
