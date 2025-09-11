@@ -127,10 +127,10 @@ const dataportfolio = [
     isDeployed: false,
     isPublicRepo: false,
     gallery: [
-      "/images/bb_1280.jpg",
-      "/images/bb_neutral.jpg",
-      "/images/bb_poster_image.jpg",
-      "/images/bb_thems.jpg"
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609920/bb_1280_wnwtrn.jpg",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609920/bb_neutral_g0wlnk.jpg",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609920/bb_poster_image_it087w.jpg",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609921/bb_thems_xgxmyw.jpg"
     ]
   },
   {
@@ -155,11 +155,11 @@ const dataportfolio = [
     isDeployed: true,
     isPublicRepo: false,
     gallery: [
-      "/images/wa_1.png",
-      "/images/wa_2.png",
-      "/images/wa_3.png",
-      "/images/wa_4.png",
-      "/images/wa_5.png"
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609923/wa_1_ppbpfr.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609924/wa_2_eqnlzx.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609924/wa_3_dgkvob.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609918/wa_4_cxqqos.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609919/wa_5_z2rwxk.png"
     ]
   },
   {
@@ -210,9 +210,9 @@ const dataportfolio = [
     isDeployed: true,
     isPublicRepo: false,
     gallery: [
-      "https://images.unsplash.com/photo-1568101794887-a7a3f149f6e6?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?q=80&w=800&auto=format&fit=crop"
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609925/fpl_1_asxslp.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609925/fpl_2_svmxl7.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609922/fpl_3_bjoac3.png"
     ]
   },
 
@@ -236,13 +236,9 @@ const dataportfolio = [
     ],
     deployedLink: "https://nkeumosoft.com/",
     githubLink: "https://github.com/nkeumosoft/agency-portfolio-v3",
-    isDeployed: true,
+    isDeployed: false,
     isPublicRepo: false,
-    gallery: [
-      "https://images.unsplash.com/photo-1702479744062-1880502275b1?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=800&auto=format&fit=crop"
-    ]
+    gallery: []
   },
   {
     id: "real-estate-showcase",
@@ -267,9 +263,9 @@ const dataportfolio = [
     isDeployed: true,
     isPublicRepo: false,
     gallery: [
-      "https://images.unsplash.com/photo-1708196889869-1405f43976ea?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=800&auto=format&fit=crop"
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609923/re_1_mahmwv.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609922/re_2_jx7qd2.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609923/re_3_bdvipe.png"
     ]
   },
   {
@@ -296,11 +292,7 @@ const dataportfolio = [
     githubLink: "https://github.com/Sculptor97/flex-reviews",
     isDeployed: true,
     isPublicRepo: true,
-    gallery: [
-      "https://images.unsplash.com/photo-1740484409661-75d41ff41a9b?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
-    ]
+    gallery: []
   },
   {
     id: "afroconnect-platform",
@@ -325,14 +317,42 @@ const dataportfolio = [
     ],
     deployedLink: "https://afroconnect.vercel.app",
     githubLink: "https://github.com/Sculptor97/afroconnect",
-    isDeployed: true,
+    isDeployed: false,
     isPublicRepo: false,
     gallery: [
-      "/images/ac_1.png",
-      "/images/ac_2.png",
-      "/images/ac_3.png",
-      "/images/ac_4.png"
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609920/ac_1_al6bxi.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609918/ac_2_a9znu8.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609919/ac_3_efle71.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609918/ac_4_yr49fg.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609920/ac_5_ll4krb.png",
+      "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609918/ac_6_njht5o.png"
     ]
+  },
+  {
+    id: "boardroomos-ai-chat",
+    title: "BoardroomOS - AI Full Stack Chat Application",
+    img: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=400&h=600&auto=format&fit=crop",
+    description: "An AI-powered full stack chat application that serves as the bridge between businesses and their sophisticated AI chat assistants, enabling seamless communication and interaction",
+    shortDescription: "AI full stack chat application with OpenAI integration",
+    technologies: ["Next.js", "OpenAI API", "TypeScript", "Tailwind CSS", "Node.js", "MongoDB"],
+    challenge: "Building a comprehensive AI chat platform that seamlessly connects end users with business AI assistants, handling real-time conversations, session management, data extraction, and providing a scalable architecture for multiple business integrations.",
+    solution: "Developed a full-stack Next.js application with OpenAI API integration for intelligent chat capabilities. Implemented real-time messaging, session persistence, and data extraction features. Created a scalable architecture that can handle multiple business AI assistants with proper authentication and user management.",
+    features: [
+      "Real-time AI chat interface with OpenAI integration",
+      "Session management and conversation history",
+      "Live response streaming for immediate feedback",
+      "Session data extraction and download functionality",
+      "Multi-business AI assistant support",
+      "User authentication and role-based access",
+      "Responsive design for all devices",
+      "Customizable AI assistant personalities",
+      "Export conversations in multiple formats"
+    ],
+    deployedLink: "https://boardroom-os.vercel.app",
+    githubLink: "#",
+    isDeployed: true,
+    isPublicRepo: false,
+    gallery: []
   }
 ];
 
