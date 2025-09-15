@@ -4,6 +4,7 @@ import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { logotext ,socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
+import Notifications from "../components/notifications";
 import { contactConfig } from "../content_option";
 
 const Headermain = () => {
@@ -26,6 +27,7 @@ const Headermain = () => {
             <a href={contactConfig.RESUME} download="LEGHA-GHA_KANG_Resume.pdf" className="resume-btn">
               Download Resume
             </a>
+            <Notifications />
             <Themetoggle />
             <button className="menu__button  nav_ac" onClick={handleToggle}>
               {!isActive ? <VscClose /> : <VscGrabber />}

@@ -33,7 +33,7 @@ const worktimeline = [
     date: "2023 - 2024",
   },
   {
-    jobtitle: "Frontend Developer",
+    jobtitle: "Senior Frontend Developer",
     where: "Trust Consulting",
     date: "2024 - present",
   },
@@ -84,6 +84,18 @@ const skills = [
     name: "Docker",
     value: 70,
   },
+  {
+    name: "Django",
+    value: 85,
+  },
+  {
+    name: "Python",
+    value: 85,
+  },
+  {
+    name: "PostgreSQL",
+    value: 80,
+  },
   
 ];
 
@@ -91,7 +103,7 @@ const services = [
   {
     title: "Web Development",
     description:
-      "I develop web applications using React, Node.js, Express, and MongoDB.",
+      "I develop web applications using React, Node.js, Express, MongoDB, Django, etc.",
   },
   {
     title: "Ecommerce Development with CMS",
@@ -101,11 +113,39 @@ const services = [
   {
     title: "Backend Development",
     description:
-      "I develop backend applications using Node.js, Express, and MongoDB.",
+      "I develop backend applications using Node.js, Express, MongoDB, Django, etc.",
   },
 ];
 
 const dataportfolio = [
+  {
+    id: "eld-log-route-planner",
+    title: "ELD Log Route Planning System",
+    img: "https://images.unsplash.com/photo-1711942179703-fce59b6afac6?q=80&w=400&h=700&auto=format&fit=crop",
+    description: "A comprehensive full-stack application for commercial drivers that generates route instructions and automated ELD (Electronic Logging Device) logs based on trip details, ensuring compliance with DOT regulations",
+    shortDescription: "Full-stack ELD log and route planning system for commercial drivers",
+    technologies: ["Django", "React", "TypeScript", "PostgreSQL", "Mapbox API", "OpenRouteService API", "Turf.js", "html2canvas", "jsPDF"],
+    challenge: "Building a complex full-stack application that takes trip details as inputs and generates accurate route instructions with automated ELD logs, ensuring compliance with DOT regulations (70hrs/8days cycle) while providing an intuitive user interface for commercial drivers.",
+    solution: "Developed a Django REST API backend with PostgreSQL database for robust data management. Created a React frontend with TypeScript for type safety and better development experience. Integrated Mapbox for interactive mapping, OpenRouteService for route optimization, and Turf.js for spatial analysis. Implemented html2canvas and jsPDF for generating printable ELD log sheets.",
+    features: [
+      "Interactive route planning with real-time map visualization",
+      "Automated ELD log generation with DOT compliance (70hrs/8days cycle)",
+      "Trip input system (current location, pickup, dropoff, current cycle hours)",
+      "Route optimization with rest stops and fueling stations",
+      "Multiple daily log sheets for longer trips",
+      "PDF export functionality for printed logs",
+      "Spatial analysis for distance and time calculations",
+      "Responsive design for mobile and desktop use",
+      "Data persistence with PostgreSQL database",
+      "RESTful API architecture for scalability"
+    ],
+    deployedLink: "https://ddl-frontend-eta.vercel.app/",
+    githubLink: "https://github.com/Sculptor97/ddl-frontend",
+    isDeployed: true,
+    isPublicRepo: true,
+    created: "2025-09-15",
+    gallery: []
+  },
   {
     id: "sentiment-analysis-extension",
     title: "Sentiment Analysis Chrome Extension",
@@ -126,6 +166,7 @@ const dataportfolio = [
     githubLink: "https://github.com/nkeumosoft/BrowseBright",
     isDeployed: false,
     isPublicRepo: false,
+    created: "2024-01-10",
     gallery: [
       "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609920/bb_1280_wnwtrn.jpg",
       "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609920/bb_neutral_g0wlnk.jpg",
@@ -154,6 +195,7 @@ const dataportfolio = [
     githubLink: "https://github.com/Verbotic/appointment-booking-frontend",
     isDeployed: true,
     isPublicRepo: false,
+    created: "2024-01-05",
     gallery: [
       "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609923/wa_1_ppbpfr.png",
       "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609924/wa_2_eqnlzx.png",
@@ -184,6 +226,7 @@ const dataportfolio = [
     githubLink: "https://github.com/Sculptor97/Alien_invasion",
     isDeployed: false,
     isPublicRepo: true,
+    created: "2023-12-20",
     gallery: [
       "/images/alien_invasion.jpg"
     ]
@@ -209,6 +252,7 @@ const dataportfolio = [
     githubLink: "https://github.com/FPL-insights/fpl-insights",
     isDeployed: true,
     isPublicRepo: false,
+    created: "2025-05-15",
     gallery: [
       "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609925/fpl_1_asxslp.png",
       "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609925/fpl_2_svmxl7.png",
@@ -238,6 +282,7 @@ const dataportfolio = [
     githubLink: "https://github.com/nkeumosoft/agency-portfolio-v3",
     isDeployed: false,
     isPublicRepo: false,
+    created: "2023-12-10",
     gallery: []
   },
   {
@@ -262,6 +307,7 @@ const dataportfolio = [
     githubLink: "#",
     isDeployed: true,
     isPublicRepo: false,
+    created: "2023-12-05",
     gallery: [
       "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609923/re_1_mahmwv.png",
       "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609922/re_2_jx7qd2.png",
@@ -292,6 +338,7 @@ const dataportfolio = [
     githubLink: "https://github.com/Sculptor97/flex-reviews",
     isDeployed: true,
     isPublicRepo: true,
+    created: "2025-08-28",
     gallery: []
   },
   {
@@ -319,6 +366,7 @@ const dataportfolio = [
     githubLink: "https://github.com/Sculptor97/afroconnect",
     isDeployed: false,
     isPublicRepo: false,
+    created: "2025-08-20",
     gallery: [
       "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609920/ac_1_al6bxi.png",
       "https://res.cloudinary.com/dtercvq2v/image/upload/v1757609918/ac_2_a9znu8.png",
@@ -352,6 +400,7 @@ const dataportfolio = [
     githubLink: "#",
     isDeployed: true,
     isPublicRepo: false,
+    created: "2023-11-15",
     gallery: []
   }
 ];
