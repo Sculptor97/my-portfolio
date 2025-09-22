@@ -362,9 +362,9 @@ const dataportfolio = [
       "Mobile-responsive design for accessibility",
       "Multi-language support for African regions"
     ],
-    deployedLink: "https://afroconnect.vercel.app",
-    githubLink: "https://github.com/Sculptor97/afroconnect",
-    isDeployed: false,
+    deployedLink: "https://www.makna.io/",
+    githubLink: "https://github.com/nkeumosoft/afroconnect_v0",
+    isDeployed: true,
     isPublicRepo: false,
     created: "2025-08-20",
     gallery: [
