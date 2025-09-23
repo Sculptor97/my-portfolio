@@ -96,6 +96,14 @@ const skills = [
     name: "PostgreSQL",
     value: 80,
   },
+  {
+    name: "Mapbox",
+    value: 75,
+  },
+  {
+    name: "Lemon Squeezy",
+    value: 70,
+  },
   
 ];
 
@@ -118,6 +126,36 @@ const services = [
 ];
 
 const dataportfolio = [
+  {
+    id: "ecocollect-waste-management",
+    title: "EcoCollect - Waste Management Platform",
+    img: "https://images.unsplash.com/photo-1503596476-1c12a8ba09a9?q=80&w=400&h=400&auto=format&fit=crop",
+    description: "A comprehensive full-stack waste management platform that connects users with waste collection services. Features subscription management, real-time tracking, driver assignment, and payment processing for a complete waste management ecosystem.",
+    shortDescription: "Full-stack waste management platform with real-time tracking",
+    technologies: ["MongoDB", "Express.js", "React", "Node.js", "TypeScript", "Tailwind CSS", "Mapbox", "Lemon Squeezy", "JWT Authentication"],
+    challenge: "Building a comprehensive waste management platform that handles multiple user roles (customers, admins, drivers), real-time location tracking, subscription management, payment processing, and efficient request assignment workflows while ensuring scalability and user experience.",
+    solution: "Developed a full-stack MERN application with TypeScript for type safety. Implemented Mapbox for real-time location tracking and route optimization, Lemon Squeezy for secure payment processing, and JWT for authentication. Created role-based access control for different user types and real-time updates for request status tracking.",
+    features: [
+      "Multi-role user system (Customers, Admins, Drivers)",
+      "Waste collection request creation and management",
+      "Real-time vehicle tracking with Mapbox integration",
+      "Subscription management with recurring billing",
+      "Secure payment processing via Lemon Squeezy",
+      "Admin dashboard for request assignment and monitoring",
+      "Driver mobile interface for task management",
+      "Real-time notifications and status updates",
+      "Route optimization for efficient collection",
+      "Customer subscription history and billing",
+      "Responsive design for mobile and desktop",
+      "JWT-based authentication and authorization"
+    ],
+    deployedLink: "https://eco-collect-omega.vercel.app/",
+    githubLink: "https://github.com/Sculptor97/trashapp-frontend",
+    isDeployed: true,
+    isPublicRepo: true,
+    created: "2025-09-23",
+    gallery: []
+  },
   {
     id: "eld-log-route-planner",
     title: "ELD Log Route Planning System",
